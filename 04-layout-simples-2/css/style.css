@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.5rem;
+    font-family: calibri;
+}
+
+.container {
+    padding: 1rem;
+    color: #fff;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 20vh 0vh 10vh;
+    gap: .5rem;
+
+    grid-template-areas: none
+            'header header'
+            'main    aside'
+            'footer footer'
+    
+    
+    ;
+}
+
+header {
+    background-color: hsl(252, 6%, 12%);
+}
+
+main {
+    background-color: hsl(252, 35%, 16%);
+}
+
+aside {
+    background-color: hsl(252, 52%, 14%);
+}
+
+footer {
+    background-color: hsl(252, 74%, 12%);   
+}
